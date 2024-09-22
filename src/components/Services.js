@@ -1,8 +1,9 @@
 import React from 'react';
-import img from '../images/web.svg'; 
-import img2 from '../images/app.svg';
-import img3 from '../images/hosting.svg';
-import img4 from '../images/consultation.svg';
+import img from '../images/cloudcost.png'; 
+import img2 from '../images/containers-image.png';
+import img3 from '../images/iac.png';
+import img4 from '../images/CICDBlog.webp';
+import img5 from '../images/performance.webp';
 
 const Services = () => {
 
@@ -15,7 +16,7 @@ const Services = () => {
                         <div className='flex justify-center'>
                             <div className='w-24 border-b-4 border-blue-900'></div>
                         </div>
-                        <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-blue-900">We are deeply committed to the growth and success of our clients.</h2>
+                        <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-blue-900">We are deeply committed to helping our clients thrive</h2>
                     </div>
 
                     <div className="px-12" data-aos="fade-down" data-aos-delay="600">
@@ -24,9 +25,9 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center">Web Development</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center">Cloud migration and cost optimization</h2>
                                     <p className="text-md font-medium">
-                                        We specialize in creating and optimizing high-quality, custom websites for businesses and organizations of all sizes. Building mobile-friendly and easy-to-use websites and applications for clients.
+                                    Transitioning workloads to the cloud and optimizing resource utilization to reduce costs.
                                     </p>
                                 </div>
                             </div>
@@ -34,9 +35,9 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center">Mobile App Development</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center">Containerization and orchestration</h2>
                                     <p className="text-md font-medium">
-                                        We develop high-quality, custom cross-platform mobile applications that are robust and optimized for performance, scalability, and accessibility.
+                                    Implementing container-based technologies like Docker and Kubernetes to improve scalability and efficiency.
                                     </p>
                                 </div>
                             </div>
@@ -44,9 +45,9 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center ">Domain and Hosting Services</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">Infrastructure as code (IaC)</h2>
                                     <p className="text-md font-medium">
-                                        We provide domain registration and web hosting services to individuals and organizations to enable them gain visibility in the digital space.
+                                    Managing infrastructure using code for consistency, automation and scaling.
                                     </p>
                                 </div>
                             </div>
@@ -54,12 +55,22 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center ">General IT Consultations</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">CI/CD pipelines and automation</h2>
                                     <p className="text-md font-medium">
-                                        Our IT consultations service provides expert guidance and support for businesses and individuals looking to optimize their technology solutions.
+                                    Automating the software development lifecycle to accelerate delivery and reduce errors.
                                     </p>
                                 </div>
-                            </div>                    
+                            </div>
+
+                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                                <div className="m-2 text-justify text-sm">
+                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img5} />
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">Performance monitoring and optimization</h2>
+                                    <p className="text-md font-medium">
+                                    Identifying and addressing performance bottlenecks to improve system efficiency and responsiveness.
+                                    </p>
+                                </div>
+                            </div>                      
                         </div>
                     </div>
             </section>
@@ -75,7 +86,7 @@ const Services = () => {
                             font-bold">We <span className='font-black'>Build</span></h3>
                             <div>
                                 <p className='my-3 text-xl text-gray-600 font-semibold'>
-                                    With over 10 years experience in software analysis and design and a deep understanding of the latest IT trends and solutions, we provide customized recommendations and strategies to help you improve your operations, reduce costs, and increase efficiency.
+                                    With over 7 years experience in software analysis and design and a deep understanding of the latest IT trends and solutions, we provide customized recommendations and strategies to help you improve your operations, reduce costs, and increase efficiency.
                                 </p>
                             </div>
                         </div>

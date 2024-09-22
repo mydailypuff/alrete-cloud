@@ -17,9 +17,9 @@ const Hero = () => {
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
                             <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
                             {/* We build digital solutions to help businesses scale */}
-                                Bespoke software solutions for your unique business needs
+                            Accelerate your business with our DevOps solutions
                             </h1>
-                            <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">We are a team of highly motivated and skilled developers dedicated to delivering only the best software.</div>
+                            <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">We empower businesses to accelerate time-to-market, reduce cloud bills, and achieve sustainable growth through innovative DevOps solutions.</div>
                             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                                 <Link to="/contact" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
                                     Learn more
