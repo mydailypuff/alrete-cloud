@@ -20,7 +20,7 @@ const Services = () => {
                     </div>
 
                     <div className="px-12" data-aos="fade-down" data-aos-delay="600">
-                        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-3">
                             
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
