@@ -23,7 +23,7 @@ module.exports = async (req, res) => {
         service: 'gmail',
         auth: {
           user: 'alretecloud@gmail.com',
-          pass: 'thnp nnst wlxq hfwq',
+          pass: process.env.EMAIL_PASSWORD,
         },
       });
 
