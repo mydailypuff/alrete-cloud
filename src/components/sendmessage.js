@@ -20,13 +20,13 @@ app.post('/send', (req, res) => {
     service: 'gmail', // You can use other services as well
     auth: {
       user: 'alrete323@gmail.com', // Your email
-      pass: process.env.EMAIL_PASSWORD, // Use the password from environment variable
-    },
+      pass: process.env.EMAIL_PASSWORD // Use the password from Vercel environment variable
+    }
   });
 
   // Email options
   let mailOptions = {
-    from: 'alrete323@gmail.com', // Use the sender's email
+    from: email, // Sender's email
     to: 'avanish@alrete.cloud, sanjana.hk@alrete.cloud', // Recipients
     subject: `New Message from ${first_name} ${last_name}`,
     text: `
@@ -36,7 +36,7 @@ app.post('/send', (req, res) => {
       Email: ${email}\n
       Phone: ${phone_number}\n
       Message: ${message}
-    `,
+    `
   };
 
   // Send the email
